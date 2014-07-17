@@ -1,0 +1,59 @@
+body{
+	width: 1280px;
+	margin: 0px;
+}
+
+#logo{
+	margin: 10px 120px 10px 40px;
+}
+
+button{
+	width: 150px;
+	height: 90px;
+	padding: 0px;
+	vertical-align: top;
+	border-style: none;
+	box-shadow: none;
+	color: #8c6b4a;
+	font-weight: bold;
+	background-color: white;	
+}
+
+#about{
+	border-top: 5px solid #8c6b4a;
+}
+
+#pic1Container{
+	width: 1280px;
+	height: 600px;
+	margin-top: 1px;
+	background-image:url('pic1.jpg');
+}
+#pic1Container-1{
+	width: 1240px;
+	height: 300px;
+	padding: 0px 0px 0px 40px;	
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+#pic1Container-2{
+	width: 1240px;
+	height: 300px;
+	padding: 60px 0px 0px 40px;
+}
+
+#pic1Container-1 span{
+	text-transform: uppercase;
+	color: white;
+	font-size: 72px;
+	font-family: 'Open Sans', serif;
+	font-weight: bold;
+}
+
+#pic1Container-2 span{
+	color: white;
+	font-size: 18px;
+	font-family: 'Open Sans', serif;;
+	font-weight: lighter;
+}
