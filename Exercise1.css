@@ -13,31 +13,35 @@ body{
 }
 
 #nav{
-	display: inline;
-	vertical-align: top;
-}
-
-#nav ul{
-	display: inline-block;	
-	width: 150px;
-	height: 90px;
-	padding-top: 25px;
+	display: inline-block;
 	vertical-align: top;
 	margin: 0px;
+	padding: 0px;
+}
+
+#nav li{
+	display: inline-block;		
 }
 
 #nav a{
+	display: block;
+	width: 150px;
+	height: 90px;
+	padding-top: 25px;
+	margin: 0px;
+	text-align: center;
 	text-decoration: none;
 	color: #8c6b4a;
+	border-top:5px solid transparent;
 	font-weight: bold;
 }
 
-#nav ul:hover{
-	border-top: 5px solid #8c6b4a;
+#nav a:hover{
+	border-color: #8c6b4a;
 }
 
-.active{
-	border-top: 5px solid #8c6b4a;
+#nav .active{
+	border-color:  #8c6b4a;
 }
 
 #pic1Container{
@@ -139,24 +143,22 @@ body{
 	height: 61px;
 }
 
-#pic2Container button:last-child{
+#pic2Container a{
 	display: block;
 	width: 330px;
 	height: 80px;
 	border: 5px solid white;
 	margin: 20px auto;
+	padding: 17px;
+	text-align: center;
+	text-decoration: none;
 	background-color: transparent;
 	color: white;
 	font-weight: lighter;
 	font-size: 30px;
 }
 
-#pic2Container button:last-child a{
-	text-decoration: none;
-	color: inherit;
-}
-
-#pic2Container button:last-child:hover{
+#pic2Container a:hover{
 	color: #8c6b4a;
 	border: 5px solid #8c6b4a;
 }
