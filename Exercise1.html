@@ -2,16 +2,18 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="Exercise1.css">
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,300">
 	</head>
 	<body>
 		<img id="logo" src="logo.jpg">
-		<button id="about">ABOUT</button>
-		<button id="work">WORK</button>
-		<button id="team">TEAM</button>
-		<button id="career">CAREER</button>
-		<button id="contact">CONTACT</button>
-
+		<li id="nav">
+			<ul  class="active"><a href="/about">ABOUT</a></ul>
+			<ul><a href="/work">WORK</a></ul>
+			<ul><a href="/team">TEAM</a></ul>
+			<ul><a href="/carrer">CAREER</a></ul>
+			<ul><a href="/contact">CONTACT</a></ul>
+		</li>
+		
 		<div id="pic1Container">
 			<div>			
 				<span>
@@ -53,12 +55,12 @@
 			
 			<div class="shape"></div>
 
-			<button>OUR WORK</button>
+			<button><a href="/ourwork">OUR WORK</a></button>
 		</div>
 
 		<div id="email">
 			<span>EMAIL:</span>
-			<span>contact@naustud.io</span>
+			<a href="contact@naustud.io">contact@naustud.io</a>
 		</div>
 	</body>
 </html>

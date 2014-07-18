@@ -1,30 +1,42 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Open Sans', serif;
 }
 
 body{
 	width: 1280px;
 	margin: 0px;
+	font-family: 'Open Sans Light', sans-serif;
 }
 
 #logo{
 	margin: 10px 120px 10px 37px;
 }
 
-button{
-	width: 150px;
-	height: 90px;
-	padding: 0px;
+#nav{
+	display: inline;
 	vertical-align: top;
-	border-style: none;
-	box-shadow: none;
-	color: #8c6b4a;
-	font-weight: bold;
-	background-color: white;	
 }
 
-#about{
+#nav ul{
+	display: inline-block;	
+	width: 150px;
+	height: 90px;
+	padding-top: 25px;
+	vertical-align: top;
+	margin: 0px;
+}
+
+#nav a{
+	text-decoration: none;
+	color: #8c6b4a;
+	font-weight: bold;
+}
+
+#nav ul:hover{
+	border-top: 5px solid #8c6b4a;
+}
+
+.active{
 	border-top: 5px solid #8c6b4a;
 }
 
@@ -34,12 +46,15 @@ button{
 	margin-top: 1px;
 	background-image:url('pic1.jpg');
 }
+
 #pic1Container div:first-child{
 	width: 1280px;
 	height: 305px;
 	padding: 0px 0px 0px 37px;	
 	display: table-cell;
 	vertical-align: bottom;
+	font-family: 'Open Sans Extrabold', sans-serif;
+	font-weight: bolder;
 }
 
 #pic1Container div:first-child + div{
@@ -77,9 +92,9 @@ button{
 }
 
 #mid2{
-	padding: 102px 40px 0px 32px;
+	padding: 102px 37px 0px 32px;
 	font-weight: lighter;
-	font-size: 20px;
+	font-size: 21px;
 }
 
 #mid1 div:first-child{
@@ -96,7 +111,7 @@ button{
 	padding-left: 116px;
 	line-height: 45px;
 	color: #8c6b4a;
-	font-weight: lighter;
+	font-weight: 100;
 	font-size: 55px;
 }
 
@@ -136,6 +151,16 @@ button{
 	font-size: 30px;
 }
 
+#pic2Container button:last-child a{
+	text-decoration: none;
+	color: inherit;
+}
+
+#pic2Container button:last-child:hover{
+	color: #8c6b4a;
+	border: 5px solid #8c6b4a;
+}
+
 #email{
 	height: 147px;
 	margin: 0px auto;
@@ -145,10 +170,11 @@ button{
 	font-weight: lighter;
 }
 
-#email span:first-child{	
+#email span{	
 	font-size: 20px;
 }
 
-#email span:last-child{
-	font-size: 30px;
+#email a{
+	font-size: 27px;
+	color: #8c6b4a;	
 }
