@@ -1,10 +1,15 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', serif;
+}
+
 body{
 	width: 1280px;
 	margin: 0px;
 }
 
 #logo{
-	margin: 10px 120px 10px 40px;
+	margin: 10px 120px 10px 37px;
 }
 
 button{
@@ -29,31 +34,121 @@ button{
 	margin-top: 1px;
 	background-image:url('pic1.jpg');
 }
-#pic1Container-1{
-	width: 1240px;
-	height: 300px;
-	padding: 0px 0px 0px 40px;	
+#pic1Container div:first-child{
+	width: 1280px;
+	height: 305px;
+	padding: 0px 0px 0px 37px;	
 	display: table-cell;
 	vertical-align: bottom;
 }
 
-#pic1Container-2{
-	width: 1240px;
-	height: 300px;
-	padding: 60px 0px 0px 40px;
+#pic1Container div:first-child + div{
+	width: 1280px;
+	height: 170px;
+	padding: 50px 0px 0px 37px;
 }
 
-#pic1Container-1 span{
-	text-transform: uppercase;
-	color: white;
-	font-size: 72px;
-	font-family: 'Open Sans', serif;
-	font-weight: bold;
+#pic1Container div:last-child{
+	width: 54px;
+	height: 20px;
+	margin-left: 37px;
+	border-top: 1px solid white;
 }
 
-#pic1Container-2 span{
+#pic1Container div:first-child span{
+	text-transform: uppercase;	
 	color: white;
-	font-size: 18px;
-	font-family: 'Open Sans', serif;;
+	line-height: 70px;
+	font-size: 69px;
+	font-style: 
+}
+
+#pic1Container div:first-child + div span{
+	color: white;
+	font-size: 16px;
 	font-weight: lighter;
+}
+
+.mid{
+	width: 49.8%;
+	height: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#mid2{
+	padding: 102px 40px 0px 32px;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+#mid1 div:first-child{
+	height: 32px;
+	width: 34px;
+	margin: 80px 37px 0px;
+	background-image: url("cornerTriangle.jpg");
+	color: #8c6b4a;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+#mid1 div:last-child{
+	padding-left: 116px;
+	line-height: 45px;
+	color: #8c6b4a;
+	font-weight: lighter;
+	font-size: 55px;
+}
+
+
+#pic2Container{
+	width: 1280px;
+	height: 689px;
+	padding: 120px 0px;
+	background-image: url("pic2.jpg");
+}
+
+#pic2Container div{
+	padding: 10px;
+	margin: 0px auto;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	font-size: 55px;
+}
+
+#pic2Container .shape{
+	background-image: url("shape.png");
+	margin: 28px auto 70px;
+	width: 539px;
+	height: 61px;
+}
+
+#pic2Container button:last-child{
+	display: block;
+	width: 330px;
+	height: 80px;
+	border: 5px solid white;
+	margin: 20px auto;
+	background-color: transparent;
+	color: white;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+#email{
+	height: 147px;
+	margin: 0px auto;
+	text-align: center;
+	padding: 55px 0px;
+	color: #8c6b4a;	
+	font-weight: lighter;
+}
+
+#email span:first-child{	
+	font-size: 20px;
+}
+
+#email span:last-child{
+	font-size: 30px;
 }
