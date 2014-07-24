@@ -4,7 +4,7 @@
 
 body{
 	width: 1280px;
-	margin: 0px;
+	margin: 0px auto;
 	font-family: 'Open Sans Light', sans-serif;
 }
 
@@ -20,7 +20,7 @@ body{
 }
 
 #nav li{
-	display: inline-block;		
+	display: inline-block;
 }
 
 #nav a{
@@ -54,7 +54,7 @@ body{
 #pic1Container div:first-child{
 	width: 1280px;
 	height: 305px;
-	padding: 0px 0px 0px 37px;	
+	padding: 0px 0px 0px 37px;
 	display: table-cell;
 	vertical-align: bottom;
 	font-family: 'Open Sans Extrabold', sans-serif;
@@ -75,11 +75,11 @@ body{
 }
 
 #pic1Container div:first-child span{
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	color: white;
 	line-height: 70px;
 	font-size: 69px;
-	font-style: 
+	font-style:
 }
 
 #pic1Container div:first-child + div span{
@@ -168,15 +168,15 @@ body{
 	margin: 0px auto;
 	text-align: center;
 	padding: 55px 0px;
-	color: #8c6b4a;	
+	color: #8c6b4a;
 	font-weight: lighter;
 }
 
-#email span{	
+#email span{
 	font-size: 20px;
 }
 
 #email a{
 	font-size: 27px;
-	color: #8c6b4a;	
+	color: #8c6b4a;
 }

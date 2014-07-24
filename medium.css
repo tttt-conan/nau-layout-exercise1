@@ -1,0 +1,234 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0px auto;
+	font-family: 'Open Sans Light', sans-serif;
+}
+
+@media all and (min-width: 1031px) and (max-width: 1297px){
+	#logo{
+		margin: 10px 120px 10px 37px;
+	}
+
+	#nav{
+		display: inline-block;
+		vertical-align: top;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#nav li{
+		display: inline-block;
+	}
+
+	#nav a{
+		display: block;
+		width: 150px;
+		height: 90px;
+		padding-top: 25px;
+		margin: 0px;
+		text-align: center;
+		text-decoration: none;
+		color: #8c6b4a;
+		border-top:5px solid transparent;
+		font-weight: bold;
+	}
+
+}
+
+
+@media all and (min-width: 525px) and (max-width: 1030px){
+
+	#logo{
+		padding: 0px 11% 0px 3.5%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 24%;
+		height: 65px;
+	}
+
+	#nav{
+		display: inline-block;
+		vertical-align: top;
+		margin: 0px;
+		padding: 0px;
+		width: 74%;
+	}
+
+	#nav li{
+		display: inline-block;
+		width: 20%;
+	}
+
+	#nav a{
+		display: block;
+		width: 100%;
+		height: 90px;
+		padding-top: 25px;
+		margin: 0px;
+		text-align: center;
+		text-decoration: none;
+		color: #8c6b4a;
+		border-top:5px solid transparent;
+		font-weight: bold;
+	}
+}
+
+#nav a:hover{
+	border-color: #8c6b4a;
+}
+
+#nav .active{
+	border-color:  #8c6b4a;
+}
+
+#pic1Container{
+	width: 100%;
+	height: 600px;
+	margin-top: 1px;
+	background-image:url('pic1.jpg');
+}
+
+#pic1Container div:first-child{
+	width: 100%;
+	height: 305px;
+	padding: 0px 0px 0px 37px;
+	display: table-cell;
+	vertical-align: bottom;
+	font-family: 'Open Sans Extrabold', sans-serif;
+	font-weight: bolder;
+}
+
+#pic1Container div:first-child + div{
+	width: 100%;
+	height: 170px;
+	padding: 50px 0px 0px 37px;
+}
+
+#pic1Container div:last-child{
+	width: 54px;
+	height: 20px;
+	margin-left: 37px;
+	border-top: 1px solid white;
+}
+
+#pic1Container div:first-child span{
+	text-transform: uppercase;
+	color: white;
+	line-height: 70px;
+	font-size: 69px;
+	font-style:
+}
+
+#pic1Container div:first-child + div span{
+	color: white;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.mid{
+	width: 49.8%;
+	height: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#mid2{
+	padding: 8% 37px 0px 32px;
+	font-weight: lighter;
+	font-size: 21px;
+}
+
+#mid1 div:first-child{
+	height: 32px;
+	width: 30%;
+	margin: 80px 37px 0px;
+	background-image: url("cornerTriangle.jpg");
+	background-repeat: no-repeat;
+	color: #8c6b4a;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+#mid1 div:last-child{
+	padding-left: 116px;
+	line-height: 45px;
+	color: #8c6b4a;
+	font-weight: 100;
+	font-size: 55px;
+	width:100%;
+}
+
+@media all and (max-width: 1009px) and (min-width: 584px){
+	.mid{
+		width: 49%;
+		height: 300px;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+
+#pic2Container{
+	width: 100%;
+	height: 689px;
+	padding: 120px 0px;
+	background-image: url("pic2.jpg");
+}
+
+#pic2Container div{
+	padding: 10px;
+	margin: 0px auto;
+	text-align: center;
+	color: white;
+	font-weight: lighter;
+	font-size: 55px;
+}
+
+#pic2Container .shape{
+	background-image: url("shape.png");
+	margin: 28px auto 70px;
+	width: 539px;
+	height: 61px;
+}
+
+#pic2Container a{
+	display: block;
+	width: 330px;
+	height: 80px;
+	border: 5px solid white;
+	margin: 20px auto;
+	padding: 17px;
+	text-align: center;
+	text-decoration: none;
+	background-color: transparent;
+	color: white;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+#pic2Container a:hover{
+	color: #8c6b4a;
+	border: 5px solid #8c6b4a;
+}
+
+#email{
+	height: 147px;
+	margin: 0px auto;
+	text-align: center;
+	padding: 55px 0px;
+	color: #8c6b4a;
+	font-weight: lighter;
+}
+
+#email span{
+	font-size: 20px;
+}
+
+#email a{
+	font-size: 27px;
+	color: #8c6b4a;
+}
