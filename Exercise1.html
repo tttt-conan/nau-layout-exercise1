@@ -2,20 +2,30 @@
 <html>
 	<head>
 		<link media="screen and (min-width: 1297px)" rel="stylesheet" type="text/css" href="global.css">
-		<link media="screen and (max-width: 1296px) and (min-width: 584px)" rel="stylesheet" type="text/css" href="medium.css">
+		<link media="screen and (max-width: 1296px) and (min-width: 605px)" rel="stylesheet" type="text/css" href="medium.css">
+		<link media="screen and (max-width: 604px) and (min-width: 240px)" rel="stylesheet" type="text/css" href="narrow.css">
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,800,300">
 	</head>
 	<body>
-		<img id="logo" src="logo.jpg">
-		<ul id="nav">
-			<li><a href="/about" class="active">ABOUT</a></li><!--
-			--><li><a href="/work">WORK</a></li><!--
-			--><li><a href="/team">TEAM</a></li><!--
-			--><li><a href="/carrer">CAREER</a></li><!--
-			--><li><a href="/contact">CONTACT</a></li>
+		<div id="navContainer">
+			<img id="logo" src="logo.jpg">
+			<ul id="nav">
+				<li><a href="/about" class="active">ABOUT</a></li><!--
+				--><li><a href="/work">WORK</a></li><!--
+				--><li><a href="/team">TEAM</a></li><!--
+				--><li><a href="/carrer">CAREER</a></li><!--
+				--><li><a href="/contact">CONTACT</a></li>
 
-		</ul>
+			</ul>
+			<select id="shortNav">
+				<option value="about">ABOUT</option>
+				<option value="work">WORK</option>
+				<option value="team">TEAM</option>
+				<option value="career">CAREER</option>
+				<option value="contact">CONTACT</option>
+			</select>
 
+		</div>
 		<div id="pic1Container">
 			<div>
 				<span>
@@ -62,7 +72,7 @@
 
 		<div id="email">
 			<span>EMAIL:</span>
-			<a href="contact@naustud.io">contact@naustud.io</a>
+			<a href="mailto:contact@naustud.io">contact@naustud.io</a>
 		</div>
 	</body>
 </html>

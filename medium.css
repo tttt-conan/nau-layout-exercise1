@@ -8,6 +8,10 @@ body{
 	font-family: 'Open Sans Light', sans-serif;
 }
 
+#shortNav{
+	display: none;
+}
+
 @media all and (min-width: 1031px) and (max-width: 1297px){
 	#logo{
 		margin: 10px 120px 10px 37px;
@@ -43,11 +47,11 @@ body{
 @media all and (min-width: 525px) and (max-width: 1030px){
 
 	#logo{
-		padding: 0px 11% 0px 3.5%;
+		padding: 0px 8% 0px 3.5%;
 		margin-top: 10px;
 		margin-bottom: 10px;
-		width: 24%;
-		height: 65px;
+		width: 21.5%;
+		height: auto;
 	}
 
 	#nav{
@@ -115,18 +119,72 @@ body{
 	border-top: 1px solid white;
 }
 
+
 #pic1Container div:first-child span{
 	text-transform: uppercase;
 	color: white;
 	line-height: 70px;
 	font-size: 69px;
-	font-style:
 }
+
+
 
 #pic1Container div:first-child + div span{
 	color: white;
 	font-size: 16px;
 	font-weight: lighter;
+}
+
+@media all and (min-width: 864px) and (max-width: 914px){
+	#pic1Container div:first-child span{
+		text-transform: uppercase;
+		color: white;
+		line-height: 70px;
+		font-size: 65px;
+	}
+}
+
+@media all and (min-width: 802px) and (max-width: 863px){
+	#pic1Container div:first-child span{
+		text-transform: uppercase;
+		color: white;
+		line-height: 70px;
+		font-size: 60px;
+	}
+}
+
+@media all and (min-width: 741px) and (max-width: 801px){
+	#pic1Container div:first-child span{
+		text-transform: uppercase;
+		color: white;
+		line-height: 70px;
+		font-size: 55px;
+	}
+}
+
+@media all and (min-width: 678px) and (max-width: 740px){
+	#pic1Container div:first-child span{
+		text-transform: uppercase;
+		color: white;
+		line-height: 70px;
+		font-size: 50px;
+	}
+}
+
+@media all and (min-width: 605px) and (max-width: 677px){
+	#pic1Container div:first-child span{
+		text-transform: uppercase;
+		color: white;
+		line-height: 70px;
+		font-size: 43px;
+	}
+
+	#pic1Container div:first-child + div span{
+		color: white;
+		font-size: 14.5px;
+		font-weight: lighter;
+	}
+
 }
 
 .mid{
